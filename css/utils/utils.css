@@ -1,0 +1,23 @@
+:root {
+  --main-white: #fff;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --accent-color: #2e2f42;
+  --light-slate: #8e8f99;
+  --accent-font: 'Raleway', sans-serif;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
