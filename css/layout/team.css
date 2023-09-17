@@ -43,6 +43,12 @@
   margin-bottom: 8px;
 }
 
+.team-member-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 .team-member-text {
   color: #434455;
   text-align: center;
