@@ -115,6 +115,10 @@
     letter-spacing: 0.02em;
   }
 
+  .address-tel {
+    color: var(--primary-brand-color);
+  }
+
   .list-link-address-mobile:focus,
   .list-link-address-mobile:active {
     color: var(--pressed-state-color);
@@ -248,10 +252,10 @@
 
   .address {
     display: block;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-style: normal;
+    color: #434455;
+    font-size: 12px;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.04em;
   }
 
   .address-list {
@@ -303,6 +307,8 @@
     display: inline-flex;
     justify-content: flex-end;
     align-items: center;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
   }
 
   .address-list {
