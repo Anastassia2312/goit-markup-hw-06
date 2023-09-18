@@ -148,11 +148,6 @@
     text-align: left;
   }
 
-  .footer {
-    padding-left: 92px;
-    padding-right: 92px;
-  }
-
   .footer-wrapper {
     flex-direction: row;
     align-items: baseline;
