@@ -98,9 +98,6 @@
     row-gap: 64px;
     justify-content: center;
   }
-  .team-list-item {
-    width: 288px;
-  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -108,10 +105,6 @@
     flex-wrap: no-wrap;
     row-gap: 0;
     justify-content: flex-start;
-  }
-
-  .team-list-item {
-    width: calc((100%-72px) / 4);
   }
 
   .team-member-socials-item-link:hover {
