@@ -1,9 +1,9 @@
 const modalWindow = document.querySelector('.backdrop');
 const openModalBtn = document.querySelector('.hero-button');
 const closeModalBtn = document.querySelector('.close-btn');
-const closeMobileMenuBtn = document.querySelector('.mobile-close-btn');
-const openMobileMenuBtn = document.querySelector('.open-mobile-menu-btn');
 const mobileMenu = document.querySelector('.mobile-menu');
+const openMobileMenuBtn = document.querySelector('.open-mobile-menu-btn');
+const closeMobileMenuBtn = document.querySelector('.mobile-close-btn');
 
 openModalBtn.addEventListener('click', () => {
   modalWindow.classList.add('is-open');
