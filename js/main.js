@@ -14,9 +14,9 @@ closeModalBtn.addEventListener('click', () => {
 });
 
 openMobileMenuBtn.addEventListener('click', () => {
-  mobileMenu.classList.add('.is-open');
+  mobileMenu.classList.add('is-open');
 });
 
 closeMobileMenuBtn.addEventListener('click', () => {
-  mobileMenu.classList.remove('.is-open');
+  mobileMenu.classList.remove('is-open');
 });
